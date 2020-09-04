@@ -1,0 +1,11 @@
+<h1>Bài 7</h1>
+<p>Nhập A: <input type="number" [(ngModel)]="A" required></p>
+<p>Nhập B: <input type="number" [(ngModel)]="B" required></p>
+<p>Nhập C: <input type="number" [(ngModel)]="C" required></p>
+<button *ngIf="A != 0" (click)="tinh()">Tính</button>
+
+<h3>{{ ALERT }}</h3>
+<p *ngIf="X1 != undefined">x1 = {{ X1 }}</p>
+<p *ngIf="X2 != undefined">x2 = {{ X2 }}</p>
+<p *ngIf="X3 != undefined">x3 = {{ X3 }}</p>
+<p *ngIf="X4 != undefined">x4 = {{ X4 }}</p>

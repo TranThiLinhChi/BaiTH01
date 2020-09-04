@@ -1,0 +1,5 @@
+<h4>Bài 1</h4>
+<input type="number" [(ngModel)]="x" placeholder="Nhập x">
+<input type="number" [(ngModel)]="n" placeholder="Nhập n">
+<button *ngIf="x != null && n != null" (click)="bai1()">Tính</button>
+<div *ngIf="s != 0">S(n) = {{s}}</div>
